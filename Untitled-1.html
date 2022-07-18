@@ -1,15 +1,68 @@
-<!DOCTYPE html>
-<HTML>
-<meta charset="utf-8" />
+<html>
 <head>
-    <title>Probando Cascading Style Sheets</title>
+<title>Practica de Programacion</title>
 </head>
-<body style="color: black; background-color: grey;">
-    <h1 style="font-family: Arial, Helvetica, sans-serif;">Probando CSS</h1>
-    <p>Este es el primer parrafo para problar CSS</p>
-    <h2>Probando CSS</h2>
-    <p>Este es el segundo parrafo para probar CSS</p>
-
-
+<body>
+    <h1>Comenzando a programar</h1>
+    <ol type="I">
+        <li>Nombre: Adrian Gonzalez</li>
+        <li>Edad: 37 años</li>
+        <li>Nacionalidad: Venezolana</li>
+        <li>Lugar de residencia: Panama</li>
+    </ol>
+    <br>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td{
+            padding: 10px;
+        }
+        th, td{
+            text-align: center;
+        }
+    </style>
+    <table style="width: 25%;">
+        <caption>Ingresos</caption>
+        <thead>
+            <tr>
+                <td colspan="2">2012</td>
+            </tr>
+            <tr>
+                <td colspan="2">Enero</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>100$</td>
+                <td>50$</td>
+            </tr>
+            <tr>
+                <td colspan="1.5">Febrero</td>
+                <td colspan="1.5">75$</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table style="width: 25%;">
+        <caption>ingresos</caption>
+        <tr>
+            <td colspan="4">2012</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Enero</td>
+            <td>1</td>
+            <td colspan="2">100$</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td colspan="2">50$</td>
+        </tr>
+        <tr>
+            <td colspan="2">Febrero</td>
+            <td colspan="2">75$</td>
+        </tr>
+    </table>
 </body>
-</HTML>
+</html>
