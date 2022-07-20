@@ -36,12 +36,36 @@
         <label for="nacionalidad">Nacionalidad</label>
           <input type="text" id="nacionalidad"/>
     </form>
-    <section>
-        <h2>Tipos de Lenguaje</h2>
-        <p>HTML</p>
-        <p>CCS</p>
-        <p>JS</p>
-    </section>
+ <style>
+        .no-style {
+            list-style-type: none;
+        }
+        .horizontal li {
+            float: left;
+            margin: 0;
+            padding: 0;
+        }
+    .horizontal a {
+        margin: 0;
+        color: blue;
+        background-color: green;
+        text-align: center;
+        padding: 4px;
+        text-decoration: none;
+        }
+        .horizontal a:hover, .horizontal a:active {
+            background-color: gray;
+        }
+    </style>
+        <p>Tipos de Lenguaje</p>
+        <ol class="no-style horizontal">
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">JS</a></li>
+        </ol>
+        <br>
+        <br>
+        <br>
     <style>
      .no-style {
             list-style-type: none;
