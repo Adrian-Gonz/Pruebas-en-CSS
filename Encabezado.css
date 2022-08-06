@@ -49,7 +49,9 @@ a:hover, input:hover, button:hover
 a:focus, input:focus, button:focus {
     background-color: #fff;
 }
-
+a:focus, input:focus, button:focus {
+    box-shadow: 0 0 0 3px rgba (0, 0, 0, 0.25);
+}
 input, button {
     border: 0;
 }
